@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Result"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="383dp"
+        android:layout_height="321dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Quiz Image"
+        android:src="@drawable/ic_trophy_image">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_congrats_oops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Congratulations"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Shahrukh"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Your Score is 9"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/design_default_color_secondary"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_score_avg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Your Score is Below Average"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        >
+
+    </Button>
+
+  </LinearLayout>
